@@ -1,0 +1,21 @@
+p{
+    font-size: 25px;
+    font-family:'Midan';
+}
+
+@font-face {
+    font-family: 'Midan';
+    src: url('./fonts/Midan.ttf');
+}
+
+@font-face {
+    font-family: 'DINNEXTARABIC';
+    src: url('./fonts/DINNEXTLTARABIC-LIGHT.ttf');
+}
+
+@font-face {
+    font-family: 'neue';
+    src: url('./fonts/helveticaneueltarabicroman.ttf');
+}
+  
+  
