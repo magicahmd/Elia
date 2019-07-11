@@ -101,7 +101,9 @@ class DroosiHeader extends React.Component {
       <Navbar inverse collapseOnSelect style={{ marginBottom: '0px', borderRadius: '0px', border: '0px' }}>
         <Navbar.Header>
           <Navbar.Brand>
-            <img src={logo} alt="logo" style={{ height: '80px' }} />
+            <Link to='/' className={classes.link} style={{ height: '80px' }}>
+              <img src={logo} alt="logo" style={{ height: '100%' }} />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle style={{ marginTop: '20px' }} />
         </Navbar.Header>

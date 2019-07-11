@@ -88,7 +88,7 @@ const RequestContent = (props) => {
                 <DataLabel title='اللغة' icon={languageIcon} data={request.language} />
                 <DataLabel title='مدة الفيلم' icon={appointmentIcon} data={request.duration} />
                 <DataLabel title='سنة إنتاج الفيلم' icon={createdDateIcon} data={request.year} />
-                <DataLabel title='رابط الفيلم' icon={linkIcon} data={request.movieLink} />
+                <DataLabel title='رابط الفيلم' icon={linkIcon} data={<a href={request.movieLink}>{request.movieLink}</a>} />
                 {request.moviePassword && <DataLabel title='كلمة المرور' icon={passwordIcon} data={request.moviePassword} />}
                 </Grid>
 
