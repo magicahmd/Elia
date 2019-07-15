@@ -4,7 +4,7 @@ export const createRequest = (request) => {
     const firestore = getFirestore();
    //const profile = getState().firebase.profile;
    // const authorId = getState().firebase.auth.uid;
-    firestore.collection('requests').add({
+    firestore.collection('submissions_2020').add({
       ...request,
       //authorFirstName: 'ahmd',
       //authorLastName: 'salhi',

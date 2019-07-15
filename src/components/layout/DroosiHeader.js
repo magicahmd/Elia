@@ -106,7 +106,7 @@ class DroosiHeader extends React.Component {
             </li>
             <li className={listItemStyle}>
               <Link to="/submit" className={classes.link}>
-                <span style={{ color: "#D4AF37" }}>SUBMIT 2019</span>
+                <span style={{ color: "#D4AF37" }}>SUBMIT 2020</span>
               </Link>
             </li>
 

@@ -46,10 +46,11 @@ const styles = theme => ({
         width: '70%',   
         fontFamily: 'midan',
         fontSize: '24px',
-        backgroundColor:'#019999',
+        backgroundColor:'#D4AF37',
+        color: 'white',
         border: '0',
         '&:hover': {
-            backgroundColor: '#018786',
+            backgroundColor: '#DAA520',
             border: '0',
         },
     },

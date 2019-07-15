@@ -6,7 +6,7 @@ import Cover from "../components/home/Cover";
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    minHeight: '100%',
+    minHeight: '100vh',
   }
 });
 

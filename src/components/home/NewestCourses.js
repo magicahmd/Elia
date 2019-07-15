@@ -38,11 +38,8 @@ const NewestCourses = ({ classes, requests }) => {
               return <RequestView request={request} key={request.id} />;
             })}
         </Grid>
-        {!requests && <p style={{margin:'20px'}}>Loading...</p>}
-
-        
+        {!requests && <p style={{ margin: "20px" }}>Loading...</p>}
       </div>
-
     </div>
   );
 };
