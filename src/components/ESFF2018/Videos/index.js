@@ -1,10 +1,11 @@
 import React from 'react'
 import { Grid } from '@material-ui/core';
 import ReactPlayer from 'react-player'
+import './styles.scss'
 
 const Videos = () => {
     return (
-        <Grid container className="videos" style={{background:'#e7e7e7'}}>
+        <Grid container className="videos-container">
         <Grid item xs={12}>
             <p className="title">
               VIDEOS

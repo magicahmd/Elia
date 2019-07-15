@@ -44,7 +44,7 @@ class CourseRequest extends Component {
 
         if (request)
             return (
-                <div style={{ backgroundColor: '#F9F9F9', width: '100%' }}>
+                <div style={{ backgroundColor: '#F9F9F9', width: '100%', minHeight: '100vh' }}>
                     <div className={classes.root} >
                         <Grid container spacing={24} style={{ justifyContent: 'center' }}>
                             <RUserBox request={request} />

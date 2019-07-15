@@ -60,7 +60,7 @@ const styles = theme => ({
 
 const requestView = ({ classes, request }) => {
     return (
-        <Grid item className={classes.root} xs={11} sm={6} md={4} lg={3}>
+        <Grid item className={classes.root} xs={11} sm={6} md={4} lg={3} >
             <Paper className={classes.paper}>
 
 
