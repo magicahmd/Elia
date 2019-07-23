@@ -3,7 +3,6 @@ import { Navbar } from "react-bootstrap";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 
-
 import { connect } from "react-redux";
 import { signIn } from "../../store/actions/authActions";
 import { signOut } from "../../store/actions/authActions";
@@ -105,11 +104,15 @@ class DroosiHeader extends React.Component {
               </Link>
             </li>
             <li className={listItemStyle}>
+              <Link to="/partners" className={classes.link}>
+                PARTNERS
+              </Link>
+            </li>
+            <li className={listItemStyle}>
               <Link to="/submit" className={classes.link}>
                 <span style={{ color: "#D4AF37" }}>SUBMIT 2020</span>
               </Link>
             </li>
-
 
             {auth.uid && (
               <li className={listItemStyle}>
