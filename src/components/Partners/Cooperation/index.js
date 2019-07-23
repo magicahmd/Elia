@@ -1,13 +1,13 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import PARTNER1 from "../../../images/Partners/InCooperation/01.jpg";
+import PARTNER1 from "../../../images/Partners/InCooperation/01.png";
 import PARTNER2 from "../../../images/Partners/InCooperation/02.png";
 import PARTNER3 from "../../../images/Partners/InCooperation/03.png";
 import PARTNER4 from "../../../images/Partners/InCooperation/04.png";
 import PARTNER5 from "../../../images/Partners/InCooperation/05.png";
 import PARTNER6 from "../../../images/Partners/InCooperation/06.png";
 import PARTNER7 from "../../../images/Partners/InCooperation/07.png";
-import PARTNER8 from "../../../images/Partners/InCooperation/08.png";
+import PARTNER8 from "../../../images/Partners/InCooperation/08.jpg";
 import "../styles.scss";
 
 const Cooperation = () => {

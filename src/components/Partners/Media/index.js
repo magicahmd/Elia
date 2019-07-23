@@ -1,10 +1,10 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import PARTNER1 from "../../../images/Partners/MediaSponsor/01.jpg";
-import PARTNER2 from "../../../images/Partners/MediaSponsor/02.png";
-import PARTNER3 from "../../../images/Partners/MediaSponsor/03.jpg";
+import PARTNER1 from "../../../images/Partners/MediaSponsor/01.png";
+import PARTNER2 from "../../../images/Partners/MediaSponsor/02.jpg";
+import PARTNER3 from "../../../images/Partners/MediaSponsor/03.png";
 import PARTNER4 from "../../../images/Partners/MediaSponsor/04.png";
-import PARTNER5 from "../../../images/Partners/MediaSponsor/05.png";
+import PARTNER5 from "../../../images/Partners/MediaSponsor/05.jpg";
 import "../styles.scss";
 
 const Media = () => {

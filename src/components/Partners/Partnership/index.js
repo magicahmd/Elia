@@ -1,15 +1,15 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import PARTNER1 from "../../../images/Partners/PartnershipWith/01.jpg";
+import PARTNER1 from "../../../images/Partners/PartnershipWith/01.png";
 import PARTNER2 from "../../../images/Partners/PartnershipWith/02.jpg";
 import PARTNER3 from "../../../images/Partners/PartnershipWith/03.jpg";
 import PARTNER4 from "../../../images/Partners/PartnershipWith/04.png";
-import PARTNER5 from "../../../images/Partners/PartnershipWith/05.png";
+import PARTNER5 from "../../../images/Partners/PartnershipWith/05.jpg";
 import PARTNER6 from "../../../images/Partners/PartnershipWith/06.jpg";
-import PARTNER7 from "../../../images/Partners/PartnershipWith/07.jpg";
+import PARTNER7 from "../../../images/Partners/PartnershipWith/07.png";
 import PARTNER8 from "../../../images/Partners/PartnershipWith/08.jpg";
 import PARTNER9 from "../../../images/Partners/PartnershipWith/09.png";
-import PARTNER10 from "../../../images/Partners/PartnershipWith/10.png";
+import PARTNER10 from "../../../images/Partners/PartnershipWith/10.jpg";
 import "../styles.scss";
 
 const Partnership = () => {
