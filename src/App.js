@@ -6,11 +6,12 @@ import Home from "./pages/Home";
 import CourseRequest from "./pages/CourseRequest";
 import Profile from "./pages/Profile";
 import CreateRequest from "./pages/CreateRequest";
-import "./fonts.css";
 import ESFF2018 from "./pages/ESFF2018";
 import Login from "./pages/Login";
 import Submissions2019 from "./pages/Submissions2019";
 import Partners from "./pages/Partners";
+import ESFFTEAM from "./pages/ESFFTEAM/Index";
+import "./fonts.css";
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
           <Route path="/submissions/2019" component={Submissions2019} />
           <Route path="/request/:id" component={CourseRequest} />
           <Route path="/ESFF2018" component={ESFF2018} />
+          <Route path="/ESFFTEAM" component={ESFFTEAM} />
           <Route path="/Partners" component={Partners} />
           <DroosiFooter />
         </div>

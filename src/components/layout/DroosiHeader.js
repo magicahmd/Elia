@@ -26,7 +26,7 @@ const styles = theme => ({
     fontFamily: "midan",
     fontSize: "24px",
     listStyleType: "none",
-    marginTop: "24px"
+    marginTop: "24px",
   },
 
   verList: {
@@ -39,9 +39,7 @@ const styles = theme => ({
   },
 
   verListItem: {
-    marginTop: "20px",
-    marginBottom: "20px",
-    marginRight: "-40px"
+    margin: "20px",
   }
 });
 
@@ -90,7 +88,7 @@ class DroosiHeader extends React.Component {
       >
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/" className={classes.link} style={{ height: "80px" }}>
+            <Link to="/" className={classes.link} style={{ height: "80px"}}>
               <img src={logo} alt="logo" style={{ height: "100%" }} />
             </Link>
           </Navbar.Brand>
@@ -101,6 +99,11 @@ class DroosiHeader extends React.Component {
             <li className={listItemStyle}>
               <Link to="/ESFF2018" className={classes.link}>
                 ESFF 2018
+              </Link>
+            </li>
+            <li className={listItemStyle}>
+              <Link to="/ESFFTEAM" className={classes.link}>
+                ESFF TEAM
               </Link>
             </li>
             <li className={listItemStyle}>
