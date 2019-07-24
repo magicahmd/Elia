@@ -1,38 +1,53 @@
-import React from 'react';
-import { Navbar } from 'react-bootstrap';
+import React from "react";
+import { Navbar } from "react-bootstrap";
 //import { NavLink } from 'react-router-dom'
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import PropTypes from "prop-types";
+import { withStyles } from "@material-ui/core/styles";
 
-import magicAce from '../../images/magicAce.png'
-
+import eliaLogo from "../../images/ESFF-logo.png";
 
 const styles = theme => ({
-
+  navbar: {
+    marginBottom: "0px",
+    borderRadius: "0px",
+    border: "0px",
+    minHeight: "60px"
+  },
+  content: {
+    display: "flex",
+    marginLeft: "25px"
+  },
+  img: {
+    height: "40px",
+    marginTop: "10px"
+  },
+  text: {
+    fontSize: "12px",
+    marginLeft: "12px",
+    marginTop: "20px",
+    color: "#EEEEEE",
+    display: "inline"
+  }
 });
 
-
 class DroosiFooter extends React.Component {
-
-    render() {
-
-        //const { classes } = this.props;
-
-        return (
-            <Navbar inverse collapseOnSelect style={{ marginBottom: '0px', borderRadius: '0px', border: '0px', minHeight: '60px' }}>
-
-                <div style={{ display: 'flex',marginLeft:'25px' }}>
-                    <img src={magicAce} alt="MAGIC" style={{ height: '40px', marginTop: '10px' }} />
-                    <span style={{ fontSize: '12px', marginLeft: '12px', marginTop:'20px', color: '#EEEEEE', display: 'inline' }}>Copyright © 2019 AHMD SALHI</span>
-                </div>
-
-            </Navbar>
-        );
-    }
+  render() {
+    const { classes } = this.props;
+    return (
+      <Navbar inverse collapseOnSelect className={classes.navbar}>
+        <div className={classes.content}>
+          <img src={eliaLogo} alt="MAGIC" className={classes.img} />
+          <span className={classes.text}>
+            ESFF ELIA SHORT FILM FESTIVAL 2018-2020 © by Ahmad Salhi
+          </span>
+        </div>
+      </Navbar>
+    );
+  }
 }
 
 DroosiFooter.propTypes = {
-    classes: PropTypes.object.isRequired,
+  classes: PropTypes.object.isRequired
 };
 
 export default withStyles(styles)(DroosiFooter);

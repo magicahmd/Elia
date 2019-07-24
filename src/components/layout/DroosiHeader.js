@@ -85,6 +85,7 @@ class DroosiHeader extends React.Component {
         inverse
         collapseOnSelect
         style={{ marginBottom: "0px", borderRadius: "0px", border: "0px" }}
+        fixedTop
       >
         <Navbar.Header>
           <Navbar.Brand>
