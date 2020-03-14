@@ -12,7 +12,7 @@ class ESFFTEAM extends Component {
     return (
       <Grid container justify="center">
           <p className="title">ESFF TEAM MEMBERS</p>
-        <Grid container justify="center" spacing={16}>
+        <Grid container justify="center" spacing={40}  style={{height: "100vh"}}>
           <Member
             image={YousefSalhi}
             name="Yousef Salhi"

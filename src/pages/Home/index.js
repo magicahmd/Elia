@@ -63,7 +63,7 @@ const Home = props => {
   const { classes } = props;
 
   return (
-    <div style={{marginTop:"80px"}}>
+    <div>
       <Grid container justify="center" className={classes.socialMedia}>
         <FollowAt links = {links} color="#8f8f8f" hoverColor="white" />
       </Grid>
