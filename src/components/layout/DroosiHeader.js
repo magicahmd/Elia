@@ -102,16 +102,16 @@ class DroosiHeader extends React.Component {
                 ESFF 2018
               </Link>
             </li>
-            <li className={listItemStyle}>
+            {/* <li className={listItemStyle}>
               <Link to="/ESFFTEAM" className={classes.link}>
                 ESFF TEAM
               </Link>
-            </li>
-            <li className={listItemStyle}>
+            </li> */}
+            {/* <li className={listItemStyle}>
               <Link to="/partners" className={classes.link}>
                 PARTNERS
               </Link>
-            </li>
+            </li> */}
             <li className={listItemStyle}>
               <Link to="/submit" className={classes.link}>
                 <span style={{ color: "#D4AF37" }}>SUBMIT 2020</span>
