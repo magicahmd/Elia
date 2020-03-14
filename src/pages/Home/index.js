@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import FollowAt from "react-social-media-follow";
 
-import coverImage from "../../images/eliaCover.jpg";
+import coverImage from "../../images/Elia2020.jpg";
 import Parallax from "../../components/Parallax";
 import { Grid } from "@material-ui/core";
 import { container, title } from "../../assets/styles/material-kit-react";
@@ -22,7 +22,8 @@ const styles = theme => ({
   },
   socialMedia: {
     position: "absolute",
-    marginTop: "20px",
+    top: "100px",
+    right: "6px",
     zIndex: "100" 
   },
   title: {
@@ -65,7 +66,7 @@ const Home = props => {
   return (
     <div>
       <Grid container justify="center" className={classes.socialMedia}>
-        <FollowAt links = {links} color="#8f8f8f" hoverColor="white" />
+        <FollowAt links = {links} color="#222222" hoverColor="white" />
       </Grid>
       <Parallax filter image={coverImage}>
         <div className={classes.container}>

@@ -8,7 +8,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 
 const parallaxStyle = {
     parallax: {
-      height: "90vh",
+      height: "100vh",
       maxHeight: "1000px",
       overflow: "hidden",
       position: "relative",
@@ -22,7 +22,7 @@ const parallaxStyle = {
     },
     filter: {
       "&:before": {
-        background: "rgba(0, 0, 0, 0.5)"
+        background: "rgba(0, 0, 0, 0.2)"
       },
       "&:after,&:before": {
         position: "absolute",
