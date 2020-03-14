@@ -9,7 +9,6 @@ import { Grid } from "@material-ui/core";
 import { container, title } from "../../assets/styles/material-kit-react";
 import classNames from "classnames";
 import EliaInfo from "./Sections/EliaInfo";
-import SelectionCommittee from "./Sections/SelectionCommittee";
 
 const styles = theme => ({
   root: {
@@ -84,7 +83,6 @@ const Home = props => {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <EliaInfo />
-          {/* <SelectionCommittee /> */}
         </div>
       </div>
     </div>
