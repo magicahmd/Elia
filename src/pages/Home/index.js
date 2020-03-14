@@ -83,7 +83,7 @@ const Home = props => {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <EliaInfo />
-          <SelectionCommittee />
+          {/* <SelectionCommittee /> */}
         </div>
       </div>
     </div>
