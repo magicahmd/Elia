@@ -117,7 +117,13 @@ class DroosiHeader extends React.Component {
                 <span style={{ color: "#D4AF37" }}>SUBMIT 2020</span>
               </Link>
             </li>
-
+            {auth.uid && (
+              <li className={listItemStyle}>
+                <Link to="/submissions/2020" className={classes.link}>
+                  Submissions (2020)
+                </Link>
+              </li>
+            )}
             {auth.uid && (
               <li className={listItemStyle}>
                 <Link to="/submissions/2019" className={classes.link}>
@@ -125,7 +131,6 @@ class DroosiHeader extends React.Component {
                 </Link>
               </li>
             )}
-
             {auth.uid && (
               <li className={listItemStyle}>
                 <Link
