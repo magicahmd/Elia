@@ -68,7 +68,7 @@ const Home = props => {
         <FollowAt links = {links} color="#222222" hoverColor="white" />
       </Grid>
       <Parallax filter image={coverImage}>
-        <div className={classes.container}>
+        {/* <div className={classes.container}>
           <Grid container>
             <Grid item xs={12} sm={12} md={6}>
               <h1 className={classes.title}>
@@ -78,7 +78,7 @@ const Home = props => {
               </h1>
             </Grid>
           </Grid>
-        </div>
+        </div> */}
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
